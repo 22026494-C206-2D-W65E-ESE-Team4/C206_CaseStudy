@@ -32,7 +32,7 @@ public class SkillMain {
                     for (Skill skill : allSkills) {
                         System.out.println(skill.getName() + " - " + skill.getDescription());
                     }
-                }
+                }//
             } else if (option == 3) {
                 String skillToDelete = Helper.readString("Enter skill name to delete: ");
                 boolean isDeleted = skillManager.deleteSkill(skillToDelete);

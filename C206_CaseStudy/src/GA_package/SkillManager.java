@@ -2,7 +2,7 @@ package GA_package;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//
 public class SkillManager {
     private List<Skill> skills;
 
